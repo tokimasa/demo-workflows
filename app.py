@@ -1,3 +1,3 @@
-import pandas as pd
+import semopy
 
 print("Output Inference Results!")
