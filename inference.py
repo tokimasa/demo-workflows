@@ -11,7 +11,7 @@ df = pd.read_csv("wine_quality.csv")
 
 # Split into X & y
 y = df.pop("quality")
-X = df.drop(columns=["quality"])
+X = df
 
 with open('clf.pickle', 'rb') as f:
     clf2 = pickle.load(f)
