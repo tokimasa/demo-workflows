@@ -11,4 +11,4 @@ RUN pip3 install --trusted-host nexusoss.wistron.com --trusted-host nexusoss.wis
 EXPOSE 80
 
 
-CMD ["python", "app.py"]
+CMD ["python", "train.py"]
